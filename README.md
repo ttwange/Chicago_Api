@@ -22,3 +22,8 @@ To use this pipeline, follow these steps:
 3. Run the pipeline, and it will automatically load data from the Chicago Crimes API, perform transformations (if needed), and export the data to Google Cloud Storage.
 
 ## Block Descriptions
+### crimes_load
+
+- **Description**: This block loads data from the Chicago Crimes API and converts it into a Pandas DataFrame.
+- **Input**: None
+- **Output**: Pandas DataFrame containing the raw data from the API.
