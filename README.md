@@ -11,3 +11,14 @@ This data pipeline consists of three main blocks:
 2. **crimes_transform**: The transformation block processes the loaded data. While the template code does not specify any transformations, you can customize this block to perform any necessary data cleaning or manipulation.
 
 3. **crimes_export**: This block exports the transformed data to Google Cloud Storage. It uses the Mage AI Google Cloud Storage connector to upload the data to a specified bucket.
+## Usage
+
+To use this pipeline, follow these steps:
+
+1. Configure your Mage AI environment and set up the required dependencies.
+
+2. Update the pipeline configuration and specify your Google Cloud Storage settings in the `io_config.yaml` file.
+
+3. Run the pipeline, and it will automatically load data from the Chicago Crimes API, perform transformations (if needed), and export the data to Google Cloud Storage.
+
+## Block Descriptions
