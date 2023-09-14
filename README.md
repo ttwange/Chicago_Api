@@ -27,3 +27,9 @@ To use this pipeline, follow these steps:
 - **Description**: This block loads data from the Chicago Crimes API and converts it into a Pandas DataFrame.
 - **Input**: None
 - **Output**: Pandas DataFrame containing the raw data from the API.
+
+### crimes_transform
+
+- **Description**: This block can be customized to perform data transformations or preprocessing steps.
+- **Input**: Pandas DataFrame (output from crimes_load).
+- **Output**: Pandas DataFrame with transformed data (optional).
