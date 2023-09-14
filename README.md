@@ -33,3 +33,12 @@ To use this pipeline, follow these steps:
 - **Description**: This block can be customized to perform data transformations or preprocessing steps.
 - **Input**: Pandas DataFrame (output from crimes_load).
 - **Output**: Pandas DataFrame with transformed data (optional).
+
+### crimes_export
+
+- **Description**: This block exports data to Google Cloud Storage.
+- **Input**: Pandas DataFrame (output from crimes_transform).
+- **Output**: None
+
+## Configuration
+
