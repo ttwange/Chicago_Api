@@ -46,3 +46,19 @@ Before running the pipeline, you need to configure your environment and update t
 - `bucket_name`: Specify the name of your Google Cloud Storage bucket.
 - `object_key`: Set the desired object key (file name) for the exported data.
 - `format`: Choose the format for exported data (e.g., 'parquet').
+
+## Running the Pipeline
+
+1. Ensure you have set up your Mage AI environment and dependencies.
+
+2. Update the `io_config.yaml` file with your Google Cloud Storage settings.
+
+3. Execute the pipeline, and it will automatically load data from the Chicago Crimes API, perform transformations (if needed), and export the data to Google Cloud Storage.
+
+## Contributing
+
+If you'd like to contribute to this project or improve the pipeline, please follow the Mage AI contribution guidelines and feel free to submit pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
