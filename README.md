@@ -41,4 +41,8 @@ To use this pipeline, follow these steps:
 - **Output**: None
 
 ## Configuration
+Before running the pipeline, you need to configure your environment and update the `io_config.yaml` file with your Google Cloud Storage settings:
 
+- `bucket_name`: Specify the name of your Google Cloud Storage bucket.
+- `object_key`: Set the desired object key (file name) for the exported data.
+- `format`: Choose the format for exported data (e.g., 'parquet').
